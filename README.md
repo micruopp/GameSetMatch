@@ -3,18 +3,17 @@ ruopp2
 CS410 sp18
 
 
-#GameSetMatch
+# GameSetMatch
 
 
-##Objective
+## Objective
 
 Please open in Firefox or Chrome! It is not developed for IE / Edge. 
 
 Sometimes it seems like you just can't find any fun new games to play.
 The big market games all feel the same and it's difficult to find a new, unique game to play.
 
-
-##Setup
+## Setup
 
 Setting up and running GameSetMatch is quite easy:
 
@@ -29,7 +28,7 @@ node app.js
 6. Direct your browser to ```localhost:3000```
 7. You're done!
 
-##Contents
+## Contents
 
 The bulk of the application is in ```app.js```. This creates and runs the Node.js server. Pug templates are stored in the 'views' folder, and 'public' holds the CSS. 
 
