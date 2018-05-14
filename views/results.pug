@@ -1,0 +1,21 @@
+include header.pug
+
+p(class='nice') You searched for #{query}
+
+table(class='nice')
+  tr
+    th Game Title
+    th IGN Score
+    th Genre
+    th Platform
+    th Release Year
+  each result in results
+    tr
+      td: a(href='http://www.ign.com'+result.url)= result.title
+      td= result.score
+      td= result.genre
+      td= result.platform
+      td= result.year
+  else
+    tr
+      td We don't have any data on that game :(

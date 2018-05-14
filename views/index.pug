@@ -1,0 +1,6 @@
+include header.pug
+
+form(name='gameSearch', action='/gameFormHandler', method='post')
+  label(for='query', class='nice space') What game do you love?
+  input(type='text', id='user-input', name='query', class='space')
+  input(type='submit', value='Find similar games!', class='space')
